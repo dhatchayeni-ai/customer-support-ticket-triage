@@ -1,38 +1,39 @@
-# customer-support-ticket-triage
+# Customer Support Ticket Automation System
+## Overview
 
-Overview
+This project automates the processing of customer support tickets using Python. It cleans ticket messages, classifies issues, assigns priorities, calculates SLA deadlines, and generates a final report for support management.
 
-This project implements a rule-based automation system for processing customer support tickets using Python.
-It standardizes ticket messages, categorizes issues, assigns priorities, calculates SLA deadlines, and generates a final report suitable for support management review.
+## Objectives
 
-Objectives
-Automate ticket preprocessing and classification
-Reduce manual effort in support ticket triaging
-Provide structured data for SLA tracking and reporting
+* Automate ticket preprocessing and classification
+* Improve efficiency in support ticket triaging
+* Enable SLA tracking and reporting
 
-Dataset
-Filename: customer_support_tickets.csv
-Contains customer support ticket messages submitted by users.
+## Dataset
 
-Technologies Used
+* **File Name:** `customer_support_tickets.csv`
+* Contains customer support ticket messages submitted by users.
 
-• Python
-• Google Colab
-• GitHub
-• Pandas
+## Technologies Used
 
-Output
+* Python
+* Pandas
+* Regular Expressions
 
-File: final_support_tickets.csv
+## Project Workflow
 
-Contains:
+* Load and validate dataset
+* Clean and preprocess ticket messages
+* Classify issues using rule-based logic
+* Assign priorities based on keywords
+* Calculate SLA hours and due times
+* Generate summary report
+* Export final output
 
-Cleaned ticket messages
+## Output
 
-Issue category
+* **File Name:** `final_support_tickets.csv`
+* Includes cleaned messages, issue type, priority, SLA hours, and due time.
 
-Priority level
 
-SLA hours
 
-Due time
